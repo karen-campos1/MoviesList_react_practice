@@ -1,0 +1,61 @@
+body{
+    background-image: url("https://allenministries.com/wp-content/uploads/2018/08/film-background-1334067869u9d.jpg");
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 5px;
+    margin: 5px 0;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color: rgba(255, 255, 255, 0.7); 
+}
+
+.card-title {
+    font-size: 1.5em;
+    margin-bottom: 8px;
+}
+
+.card-genre {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.card-description {
+    margin-bottom: 16px;
+    font-size: 20px;
+}
+
+.card-button {
+    margin-right: 8px;
+}
+
+.card-image {
+    width: 200px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+}
+  
+.text-center {
+    text-align: center;
+}
+  
+button {
+    display: inline-block;
+    margin: 10px;
+}
+  
+select {
+    margin: 10px;
+}
+  
